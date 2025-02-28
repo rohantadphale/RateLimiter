@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven
+target/
+**/target/
+**/target/**
+target/**/*
+*.war
+*.ear
+target/*.txt
+target/**/*.txt
+target/surefire-reports/
+target/surefire-reports/*.txt
+target/classes/
+target/generated-sources/
+target/maven-archiver/
+target/maven-status/
+target/test-classes/
+target/spring-boot-benchmark-0.0.1-SNAPSHOT.jar.original
+target/surefire-reports/com.example.benchmark.BenchmarkApplicationTests.txt
+target/surefire-reports/TEST-com.example.benchmark.BenchmarkApplicationTests.xml
